@@ -52,11 +52,11 @@ def extract_text_from_pdf(pdf_path, output_txt_path, num_pages=None):
     print(f"\nCheck the file '{output_txt_path}' for the full extracted text.")
 
 # --- Configuration ---
-pdf_file = "From Sex to Superconsciousness"
+pdf_file = "osho_book_2"
 pdf_path = f"{pdf_file}.pdf"
-output_text_file = "extracted_osho_text.txt"
-# We'll extract 10 pages for a fast test.
-NUM_PAGES_TO_EXTRACT = 10 
+output_text_file = "extracted_book_2.txt" 
+# Change NUM_PAGES_TO_EXTRACT to None to get the whole book
+NUM_PAGES_TO_EXTRACT = None 
 
 if __name__ == "__main__":
     print("Starting PDF text extraction process...")

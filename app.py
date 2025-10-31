@@ -7,7 +7,7 @@ import google.generativeai as genai # New import for Gemini
 import time # Just for a simple "typing" effect
 
 # --- Configuration ---
-EMBEDDINGS_FILE = "osho_embeddings_v4.json" # Use your latest v4 file
+EMBEDDINGS_FILE = "osho_master_embeddings.json" # Use your latest v4 file
 MODEL_NAME = "all-MiniLM-L6-v2"
 TOP_K = 3  # Number of best matching results to retrieve
 
